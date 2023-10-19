@@ -12,6 +12,7 @@ class Shop {
   }
 
   updateQuality() {
+    //addded quality Variance to handle Quality 
     let qualityVariance = 1
     for (var i = 0; i < this.items.length; i++) {
       if (this.items[i].name == 'Conjured') qualityVariance = 2
